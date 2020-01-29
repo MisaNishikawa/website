@@ -1,0 +1,170 @@
+.container{
+    color:#333333;
+}
+
+
+header{
+    background-color:#1A1A1A;
+    padding:15px 5px;
+}
+    .header-left{
+    font-family:"YuMincho";
+    color:white;
+    
+}
+
+.top{
+    height:60vh;
+    background-image: url(../img/animals-hedder.jpg);
+    background-repeat : no-repeat;
+    background-size:cover;
+
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.text1{
+    font-family:"YuMincho";
+    font-size:20px;
+    font-weight: bold;
+    margin:30px 60px ;
+}
+.text2{
+
+    margin-bottom: 100px;
+}
+.profile-container{
+
+    background-color:#F5F5F5;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo{
+    border-radius: 200px;
+}
+
+.profile{
+    padding-left: 50px;
+}
+.prof-text{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    text-align: center;
+    font-family:"YuMincho";
+    font-size:30px;
+}
+ul {
+    list-style: none;
+  }
+
+
+.like-header{
+    display: flex;
+    justify-content: center;
+    font-family:"YuMincho";
+
+}
+
+.likes{
+    display: flex;
+    justify-content: center;
+}
+
+.like{
+
+    margin:10px;
+}
+.like-text h2{
+    font-size: 20px;
+}
+
+.btn{
+    display:block;
+    width:110px;
+    height:30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#1A1A1A;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "YuMincho";
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+}
+.contact h2{
+    font-family:"YuMincho";
+    font-weight: normal;
+    font-size: 30px;;
+}
+
+footer{
+    background-color:#1A1A1A;
+    color: white;
+    padding:15px 5px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* topに戻るボタンのcss */
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+/* スライドショー */
+
+.wrap {
+    width:400px;
+    background:#000;
+    margin:20px auto;
+    padding:10px;
+}
+
+.wrap p {
+    height:400px;
+}
+
+.wrap ul {
+    display:block;
+    overflow:hidden;
+    margin-top:10px;
+    margin-right:-10px;
+    clear:both;
+}
+.wrap li {
+    display:block;
+    float:left;
+    background:#fff;
+    argin-right:10px;
+}
+.wrap li img {
+    cursor:pointer;
+}
