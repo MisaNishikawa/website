@@ -14,11 +14,28 @@ header{
 }
 
 .top{
-    height:60vh;
-    background-image: url(../img/animals-hedder.jpg);
-    background-repeat : no-repeat;
-    background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/madagasukaru2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.top h1{
+    -webkit-animation: scrollmask 15s ease 2s infinite;
+    -webkit-background-clip: text;
+    background-image: url(../img/hyougara.jpg);
+    color: transparent;
+    font-size: 80px;
+    -webkit-text-stroke: 3px #000033; */
+  }
+  @-webkit-keyframes scrollmask {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 0;}
 
+  
 }
 .text{
     display:flex;
@@ -37,7 +54,7 @@ header{
 }
 .profile-container{
 
-    background-color:#F5F5F5;
+    background-color:#99CCCC;
     padding:20px;
     display: flex;
     justify-content: center;
@@ -76,13 +93,6 @@ ul {
     justify-content: center;
 }
 
-.like{
-
-    margin:10px;
-}
-.like-text h2{
-    font-size: 20px;
-}
 
 .btn{
     display:block;
@@ -142,7 +152,7 @@ footer{
 /* スライドショー */
 
 .wrap {
-    width:400px;
+    width:800px;
     background:#000;
     margin:20px auto;
     padding:10px;
@@ -162,7 +172,7 @@ footer{
 .wrap li {
     display:block;
     float:left;
-    background:#fff;
+    background:black;
     argin-right:10px;
 }
 .wrap li img {
