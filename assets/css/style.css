@@ -13,6 +13,7 @@ header{
     
 }
 
+
 .top{
   display: flex;
   flex-direction: column;
@@ -29,7 +30,7 @@ header{
     background-image: url(../img/hyougara.jpg);
     color: transparent;
     font-size: 80px;
-    -webkit-text-stroke: 3px #000033; */
+    -webkit-text-stroke: 3px #000033; 
   }
   @-webkit-keyframes scrollmask {
     0% {background-position: 0 0;}
@@ -81,18 +82,75 @@ ul {
   }
 
 
-.like-header{
-    display: flex;
-    justify-content: center;
-    font-family:"YuMincho";
 
-}
+  /* ボタン */
+  .open{
+    background: rgb(35, 139, 165);
+    color: #fff;
+    cursor: pointer;
+    width:80px;
+    padding: 10px;
+    border-radius: 20px;
+    margin:20px;
+    font-family: "YuMincho";
+  }
 
-.likes{
-    display: flex;
-    justify-content: center;
-}
 
+  .open1{
+  
+        background: rgb(35, 139, 165);
+        color: #fff;
+        cursor: pointer;
+        width: 80px;
+        padding: 10px;
+        border-radius: 20px;
+        margin:20px;
+        font-family: "YuMincho";
+      }
+
+  .open2{
+  
+    background:rgb(35, 139, 165);
+    color: #fff;
+    cursor: pointer;
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    margin:20px;
+    font-family: "YuMincho";
+  }
+
+
+
+      #slideBox{
+        padding: 10px; 
+        border: 1px #ccc solid;
+        display: none;
+        font-family: "YuMincho";
+        height:40px;
+  }
+
+  #slideBox1{
+    padding: 10px; 
+    border: 1px #ccc solid;
+    display: none;
+    font-family: "YuMincho";
+    height:40px;
+  }
+
+  #slideBox2{
+    padding: 10px; 
+    border: 1px #ccc solid;
+    display: none;
+    font-family: "YuMincho";
+    height:40px;
+  }
+  
+  .opens{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  } 
 
 .btn{
     display:block;
@@ -110,6 +168,14 @@ ul {
     font-family: "YuMincho";
 
 }
+
+
+
+
+
+
+
+
 
 .contact{
     display: flex;
@@ -148,6 +214,8 @@ footer{
     background-color: #666;
     text-decoration: none;
 }
+
+
 
 /* スライドショー */
 

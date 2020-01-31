@@ -19,7 +19,33 @@ $(function(){
     });
   });
 
+
+
+
+
+//opens
+  $(function(){
+    $(".open").click(function(){
+      $("#slideBox").slideToggle("slow");
+    });
+});
+
+$(function(){
+    $(".open1").click(function(){
+      $("#slideBox1").slideToggle("slow");
+    });
+});
+
+$(function(){
+    $(".open2").click(function(){
+      $("#slideBox2").slideToggle("slow");
+    });
+});
+
   
+
+
+
   //スライドショー
   $(function(){
         $("img.ChangePhoto").click(function(){
@@ -31,4 +57,3 @@ $(function(){
             return false;
         }); 
     });
-    
