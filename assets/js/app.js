@@ -42,7 +42,11 @@ $(function(){
     });
 });
 
-  
+$(function(){
+  $(".open3").click(function(){
+    $("#slideBox3").slideToggle("slow");
+  });
+});
 
 
 
